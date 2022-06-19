@@ -4,26 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="receita.css">
     <title>Receita de Sonho</title>
 </head>
 
 <body>
-    <div id="Conteudo">
+    <div id="Container">
         <header>
+            <div class="img" id="container-da-imagem">
+                <img src="img/sonho.jpg">
+            </div>
+            <br>
             <section>
-
-            <h1>Bola de Berlin</h1>
-            <p> Minha primeira <strong>Receita</strong></p>
-            <img src="img/sonho.jpg" width="500px">
-            
-             </section>
-
-
-
+                <h1 class="texto-principal">Bola de Berlin(sonho)</h1>
+                <p class="texto-basico"> Minha primeira <strong>Receita</strong></p>
+            </section>
+            <br>
         </header>
-        <article>
-            <h2> Ingredientes </h2>
-            <ul id="lista1">
+        <article class="conteudo">
+            <h2 class="texto-secundario"> Ingredientes </h2>
+            <br>
+            <ul class="past" id="conteudo-principal">
                 <li>1 kg de farinha de trigo</li>
                 <li>10 g de fermento para pão</li>
                 <li>1 ovo</li>
@@ -33,9 +34,11 @@
                 <li>1/2 l de leite morno </li>
             </ul>
         </article>
-        <article>
-            <h2>Recheio</h2>
-            <ul id="lista2">
+        <br>
+        <article class="conteudo">
+            <h2 class="texto-secundario" >Recheio</h2>
+            <br>
+            <ul class="past" id="conteudo-principal">
                 <li>1/2 l de leite</li>
                 <li>1 gema</li>
                 <li>2 colheres de sopa de maizena</li>
@@ -43,27 +46,38 @@
                 <li>Açúcar a gosto</li>
             </ul>
         </article>
-        <article>
-            <h2> Modo de Preparo </h2>
-            <ol id="lista3"> 
+        <br>
+        <article class="conteudo">
+            <h2 class="texto-secundario"> Modo de Preparo </h2>
+            <br>
+            <!--lista ordenada-->
+            <ol class="past1" id="conteudo-principal"> 
                 <li>Dissolva o fermento com o leite morno, depois coloque o açúcar e os demais ingredientes.</li>
                 <li>Sove a massa até que fique sem grudar nas mãos.</li>
                 <li>Faça bolinhas do tamanho que preferir e deixe a massa crescer por mais ou menos 1 hora.</li>
                 <li>Após isso, frite em óleo quente e recheie. </li>
-                <li>Para preparar o recheio é só misturar todos ingredientes e leva ao fogo, sempre mexendo, até engrossar.</li>
+                <li>Para o recheio, mistura todos ingredientes e leva ao fogo, mexer até engrossar.</li>
                 <li>Se preferir você pode rechear com brigadeiro que fica muito bom!.</li>
             </ol>
         </article>
+        <br><br>
+        <!--colocar um vídeo sobre a receita-->
         <article>
-            <h3> Saiba Mais </h3>
+            <h2> Veja um vídeo explicativo sobre a receita </h2>
+            <br>
             <ul>
-                <a href="https://youtu.be/1-MhPaWKcpM"> Video </a>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1-MhPaWKcpM" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             
             </ul>
 
         </article>
+    <!--colocar um rodapé-->
+    </div>
+    <div class="footer">
+        <br>
+        <p>Feito por Marisa Basílio</p>
 
     </div>
-    
 </body>
 </html>
